@@ -25,7 +25,7 @@ function cargaDetalle() {
   let container_btn_volver = document.createElement("div");
   container_btn_volver.classList.add("container-btn-volver");
   const newText = document.createElement("a");
-  newText.setAttribute("href", "/index.html");
+  newText.setAttribute("href", "Tarea-01/index.html");
   newText.classList.add("btn-volver");
   newText.textContent = "volver";
   let divDetalle = document.createElement("div");
