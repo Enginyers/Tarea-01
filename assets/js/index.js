@@ -33,7 +33,7 @@ function cargaDetalle() {
       // console.log("sd" + datos[i].nombre);
       // console.log(i);
       localStorage.setItem("personaje", datos[i].nombre);
-      window.location.href = "Tarea-01//assets/pages/detalle.html";
+      window.location.href = "Tarea-01/assets/pages/detalle.html";
     });
   }
 }
